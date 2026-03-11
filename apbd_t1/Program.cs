@@ -1,8 +1,8 @@
 ﻿
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello There!");
 
-Console.WriteLine("Hello there!");
+Console.WriteLine("General Kenobi!");
 
 Console.WriteLine("Enter username:");
 
