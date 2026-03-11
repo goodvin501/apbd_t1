@@ -12,4 +12,14 @@ public class StatisticsHelper
         double average = sum / numbers.Length;
         return average;
     }
+
+    static int calculateMax(int[] numbers)
+    {
+        int max = numbers[0];
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            if (numbers[i] > max) {max = numbers[i];}
+        }
+        return max;
+    }
 }
