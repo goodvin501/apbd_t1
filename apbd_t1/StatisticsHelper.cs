@@ -13,8 +13,13 @@ public class StatisticsHelper
         return average;
     }
 
-    static double calculateMax(int[] numbers)
+    static int calculateMax(int[] numbers)
     {
-        return 0.0;
+        int max = numbers[0];
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            if (numbers[i] > max) {max = numbers[i];}
+        }
+        return max;
     }
 }
