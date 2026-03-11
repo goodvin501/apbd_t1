@@ -2,7 +2,7 @@
 
 Console.WriteLine("Hello, World!");
 
-Console.WriteLine("Hello there!");
+Console.WriteLine("Hey loser!");
 
 Console.WriteLine("Enter username:");
 
